@@ -1,81 +1,64 @@
-
-
 body {
-  font-family: "Epilogue", sans-serif;
-  
+  font-family: 'Epilogue', sans-serif;
 }
 
-img{
+img {
   width: 300px;
   height: 300px;
-  
   right: 80px;
 }
 
-
-
 /* UKURAN LAPTOP */
 
-@media screen and ( max-width: 992px){
-
-  .hero{
-  
+@media screen and (max-width: 992px) {
+  .hero {
     margin-top: 140px;
     padding-top: 80px;
   }
-  
-  .about{
-    
+
+  .about {
     padding-top: 150px;
-    
   }
-  
-  .project{
+
+  .project {
     padding-top: 60px;
   }
-  
-  .contact{
+
+  .contact {
     padding-top: 200px;
   }
-  
-  #home{
+
+  #home {
     padding-top: 150px;
   }
-
 }
-
-
-
-
 
 /* UKURAN HANDPHONE */
 
-@media screen and ( max-width: 576px){
-  
-  #home{
+@media screen and (max-width: 576px) {
+  #home {
     display: flex;
     flex-wrap: wrap;
   }
 
-  #about{
+  #about {
     text-align: center;
   }
 
-  #project{
+  #project {
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
   }
 
-  #contact{
+  #contact {
     display: flex;
-    
   }
-  p .col-lg-10{
+  p .col-lg-10 {
     text-align: center;
   }
 
-  .horizontal{
+  .horizontal {
     display: flex;
   }
 }
